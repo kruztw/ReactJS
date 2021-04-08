@@ -1,0 +1,9 @@
+yarn create react-app my-app
+cd my-app
+yarn start
+
+or 
+
+sudo npm install -g create-react-app
+create-react-app hello-world
+npm start
