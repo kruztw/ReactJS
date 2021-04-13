@@ -16,6 +16,14 @@ function App() {
         console.log(res.data);
     });
 
+    axios.get("/api/GET").then((res) => {
+        console.log(res.data);
+    });
+
+    axios.post("/api/POST", {"msg": "HI"}).then((res) => {
+        console.log(res.data);
+    });
+
     return (
            <>
            </>
